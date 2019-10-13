@@ -36,5 +36,7 @@ namespace TestNinja.Fundamentals
 
             return _list[_list.Count - 1];
         }
+
+        
     }
 }

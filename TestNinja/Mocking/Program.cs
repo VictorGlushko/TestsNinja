@@ -12,6 +12,8 @@ namespace TestNinja.Mocking
         {
             var service = new VideoService();
             var title = service.ReadVideoTitle();
+            var loader = new FileDownloader();
+            loader.GetFile("123","123");
         }
     }
 }
